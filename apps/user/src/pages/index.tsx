@@ -1,9 +1,10 @@
-import React from 'react';
+import {CategoryCard} from "ui";
+import watchImage from "../../public/watch-img.png";
 
 const Home = () => {
   return (
     <div>
-      <h1 className='text-black bg-slate-500 p-4'>Hello from home</h1>
+      <CategoryCard />
     </div>
   );
 };
