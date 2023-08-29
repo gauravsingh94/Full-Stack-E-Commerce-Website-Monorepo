@@ -10,12 +10,12 @@
   },
   "dependencies": {
     "mongoose": "^7.4.3",
-    "tailwindconfig": "*",
     "ui": "*",
     "dbmodels":"*"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
-    "tsconfig": "*"
+    "tsconfig": "*",
+    "tailwindconfig": "*"
   }
 }
