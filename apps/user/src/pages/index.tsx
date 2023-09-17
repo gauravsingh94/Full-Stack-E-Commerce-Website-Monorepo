@@ -1,10 +1,11 @@
 import {CategoryCard} from "ui";
-import watchImage from "../../public/watch-img.png";
+import { Nav } from "ui";
+
 
 const Home = () => {
   return (
     <div>
-      <CategoryCard />
+      <CategoryCard/>
     </div>
   );
 };
