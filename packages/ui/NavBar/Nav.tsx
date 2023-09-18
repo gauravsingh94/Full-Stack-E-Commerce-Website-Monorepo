@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export const Nav = () => {
   return (
-    <div className="h-[62px] lg:h-[80px] font-inter flex justify-between items-center  px-[32px] lg:px-[137px] bg-white">
+    <div className="fixed top-0 w-full  h-[62px] lg:h-[80px] font-inter flex justify-between items-center  px-[32px] lg:px-[137px] bg-white z-50">
       <BrandIcon />       
 
       {/* All the contents of the Nav bar */}

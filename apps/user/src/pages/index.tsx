@@ -1,11 +1,9 @@
-import {CategoryCard} from "ui";
-import { Nav } from "ui";
-
+import WebsiteHomePage from "./home";
 
 const Home = () => {
   return (
-    <div>
-      <CategoryCard/>
+    <div >
+      <WebsiteHomePage/>
     </div>
   );
 };
