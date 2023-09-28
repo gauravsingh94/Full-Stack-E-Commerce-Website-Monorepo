@@ -12,4 +12,5 @@ export * from "./servicesCard/SecurePaymentCard";
 export * from "./servicesCard/WarrentyPolicy";
 export * from "./Footer/Footer-lg";
 export * from "./Footer/Footer-sm";
+export * from "./productCard/productCard";
 
