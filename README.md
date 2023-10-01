@@ -1,81 +1,76 @@
-# Turborepo starter
+# Fullstack E Commerse Website Using Turborepos
 
-This is an official starter Turborepo.
+Welcome to the Ecommerce Website repository! This project is aimed at building a full-stack ecommerce website with two distinct frontend clients: the User Client and the Admin Client. Below, you will find all the information you need to understand and set up this project.
 
-## Using this example
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Run the following command:
+## Overview
 
-```sh
-npx create-turbo@latest
-```
+This repository houses the codebase for a comprehensive ecommerce website. It is split into two distinct clients:
 
-## What's inside?
+- **User Client**: This client allows users to view all available products, browse product categories, receive product recommendations, and make purchases.
 
-This Turborepo includes the following packages/apps:
+- **Admin Client**: The admin client is designed for administrators to manage the product catalog. Administrators can add new products, update product details, change product categories, delete products, and view all customer orders.
 
-### Apps and Packages
+The project leverages the [TurboRepos](https://turborepos.example.com) platform for development and version control.
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+## Features
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- User Client:
+  - Browse and view all available products.
+  - Explore product categories.
+  - Receive product recommendations.
+  - Add products to the shopping cart.
+  - Complete the checkout process.
 
-### Utilities
+- Admin Client:
+  - Add new products to the catalog.
+  - Update product details.
+  - Modify product categories.
+  - Delete products from the catalog.
+  - View all customer orders.
 
-This Turborepo has some additional tools already setup for you:
+## Getting Started
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+To set up and run this project locally, follow these steps:
 
-### Build
+1. Clone the repository to your local machine:
 
-To build all apps and packages, run the following command:
+   ```bash
+   git clone git@github.com:gauravsingh94/Full-Stack-E-Commerce-Website-Monorepo.git
+   ```
 
-```
-cd my-turborepo
-pnpm build
-```
+2. Change to the project directory:
 
-### Develop
+   ```bash
+   cd ecommerce-website
+   ```
 
-To develop all apps and packages, run the following command:
+3. Install project dependencies using npm:
 
-```
-cd my-turborepo
-pnpm dev
-```
+   ```bash
+   npm install
+   ```
 
-### Remote Caching
+4. Start the development server:
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+   ```bash
+   npm run dev
+   ```
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+5. Access the User Client at [http://localhost:3000/user](http://localhost:3000/user) and the Admin Client at [http://localhost:3001/admin](http://localhost:3000/admin).
 
-```
-cd my-turborepo
-npx turbo login
-```
+You are now ready to explore and contribute to this ecommerce website project!
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+## Usage
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+- **User Client**: Use the User Client to browse products, view categories, receive product recommendations, and make purchases.
 
-```
-npx turbo link
-```
+- **Admin Client**: Access the Admin Client to manage the product catalog, add new products, update product details, change categories, delete products, and view customer orders.
 
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
