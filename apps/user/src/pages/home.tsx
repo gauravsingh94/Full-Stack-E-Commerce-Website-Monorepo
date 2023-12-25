@@ -1,6 +1,5 @@
 import {
   CODCard,
-  Carousel,
   CategoryCard,
   FooterLg,
   FooterSm,
@@ -8,23 +7,22 @@ import {
   SecurePaymentCard,
   ShippingCard,
   WarrentyPolicy,
+  Carousel
 } from "ui";
-
 const WebsiteHomePage = () => {
+
+  const CarouselImages = [
+    "Carousel-Image-1.jpg",
+    "Carousel-Image-2.jpg"
+  ]
+  
   return (
     <div>
       {/* upper part 🌳 */}
       <Nav />
       <div className="mt-[62px] lg:mt-[80px]">
-        <Carousel />
+        <Carousel images={CarouselImages}/>
       </div>
-      <div className="flex justify-center px-[97px] ">
-        <h1 className="font-inter text-[15px]  lg:text-[24px] mt-[100px] md:mt-[270px] lg:mt-[443px] text-center ">
-          Bringing Excellence Within Reach: Elevating Your Lifestyle with
-          Unbeatable Gadgets.
-        </h1>
-      </div>
-
       {/* Categories part 🐼 */}
       <div className="flex flex-col items-center">
         <h1 className="font-inter lg:text-[36px] font-bold lg:mt-[91px] mt-[47px]">
