@@ -1,9 +1,8 @@
-import WebsiteHomePage from "./home";
-
+import { ActionProductCard } from "ui";
 const Home = () => {
   return (
-    <div >
-      <WebsiteHomePage/>
+    <div>
+      <ActionProductCard />
     </div>
   );
 };

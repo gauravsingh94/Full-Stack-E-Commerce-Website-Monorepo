@@ -18,7 +18,6 @@ const WebsiteHomePage = () => {
   
   return (
     <div>
-      {/* upper part 🌳 */}
       <Nav />
       <div className="mt-[62px] lg:mt-[80px]">
         <Carousel images={CarouselImages}/>

@@ -15,6 +15,10 @@ export const Carousel:React.FC<CarouselProp> = ({images}) => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    style: {
+      width: '100%', // Set width to 100%
+      height: 'auto', // Adjust height as needed
+    },
   };
   return (
     <Slider {...settings}>
