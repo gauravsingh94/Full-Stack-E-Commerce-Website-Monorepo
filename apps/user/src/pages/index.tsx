@@ -1,8 +1,8 @@
-import { ActionProductCard } from "ui";
+import LoginWithGoogle from "ui/Login&Signup/LoginWithGoogle";
 const Home = () => {
   return (
     <div>
-      <ActionProductCard />
+      <LoginWithGoogle/>
     </div>
   );
 };

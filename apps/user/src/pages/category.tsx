@@ -16,7 +16,7 @@ const CategoryPage = () => {
         </div>
       </div>
       <div className="mt-[150px]">
-      <FooterLg/>
+        <FooterLg />
       </div>
     </div>
   );

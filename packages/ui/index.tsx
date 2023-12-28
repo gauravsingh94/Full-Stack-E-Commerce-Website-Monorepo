@@ -16,4 +16,6 @@ export * from "./Carousel/Carousel";
 export * from "./productCard/ImageProductCard";
 export * from "./productCard/DescriptionProductCard";
 export * from "./productCard/ActionProductCard";
+export * from "./Login&Signup/LoginWithGoogle";
+
 
